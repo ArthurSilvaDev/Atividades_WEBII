@@ -1,3 +1,3 @@
 function LerCarrosAtualizado(){
-    const Carros = 1;
+    const Carros = 10;
 }
