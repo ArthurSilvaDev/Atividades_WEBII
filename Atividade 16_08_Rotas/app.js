@@ -48,6 +48,20 @@ app.get('/curso/:id', (req,res) => {
         res.json({})
 })
 
+app.patch('/curso/:id', (req,res) => {
+    const {id} = req.params
+    const {sigla, nome} = req.body
+    const curso = cursos.find(curso => curso.id == id)
+    curso.sigla = sigla
+    curso.nome = nome
+    res.redirect('/curso/' + id)
+})
+
+app.delete('curso/:id', (req, res) =>{
+    const {id} = req.params
+    cursos  = cursos.filter(curso => curso.id != id)
+    res.redirect('/curso')
+})
 
 app.listen(3000, () => {
     console.log("Servidor ligado na porta 3000!")
