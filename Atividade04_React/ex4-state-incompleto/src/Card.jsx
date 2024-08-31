@@ -6,6 +6,7 @@ const Card = props =>
         <img src={avatar} />
         <p className='nome'>{props.nome}</p>
         <p>{props.descricao}</p>
+        <button onClick={() => props.removeEstudante(props.nome)}>Remover</button>
     </div>
 
 

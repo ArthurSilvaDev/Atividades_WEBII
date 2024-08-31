@@ -10,6 +10,10 @@ function App() {
   const addEstudante = (estudante) =>{
     setEstudantes([...estudantes, estudante])
   }
+
+  const removeEstudante = nome =>{
+    setEstudantes(estudantes.filter(estudante => estudante.nome !== nome))
+  }
   
 
   return (
@@ -18,7 +22,7 @@ function App() {
         <a href="https://ifrs.edu.br" target="_blank"><img src={logo} alt="logo" className="App-logo"/></a>
 
         <p>Estudantes:</p>
-        <Cards lista={estudantes} />
+        <Cards lista={estudantes} removeEstudante ={removeEstudante}/>
         
         <p>Adicionar novo estudante:</p>
         <CardAdicionar addEstudante={addEstudante}/>

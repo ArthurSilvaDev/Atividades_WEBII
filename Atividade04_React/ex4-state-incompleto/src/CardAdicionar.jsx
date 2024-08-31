@@ -24,11 +24,15 @@ const CardAdicionar = (props) => {
             <textarea name="descricao" id="descricao" cols="58" rows="5" value={inputDescricao} onChange={handleInputDescricaoChange}/>
 
             <br/>
-            <button onClick={() => {props.addEstudante({
-                nome: inputNome, descricao: inputDescricao
-                })  
-                setInputNome('')
-                setInputDescricao('')
+            <button onClick={() => {
+                if (inputNome && inputDescricao){
+                    props.addEstudante({
+                        nome: inputNome, descricao: inputDescricao
+                        })  
+                        setInputNome('')
+                        setInputDescricao('')
+                }
+                
             }}>Adicionar</button>
         </div>
     )
