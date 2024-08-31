@@ -4,7 +4,7 @@ const Cards = props =>
     <>
        {props.lista.length > 0 ?
         props.lista.map(estudante => <Card nome={estudante.nome} descricao={estudante.descricao} />)
-        : <p>Não há estudantes cadastrados.</p>
+        : <p style={{fontSize: '10px', color:'red'}}>Não há estudantes cadastrados.</p>
     } 
     </>
 
