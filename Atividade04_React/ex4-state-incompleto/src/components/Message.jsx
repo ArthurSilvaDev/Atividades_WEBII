@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import './Message.css'
 
 const Message = ({children, ...props}) => 
