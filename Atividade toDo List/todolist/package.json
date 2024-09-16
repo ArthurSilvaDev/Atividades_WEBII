@@ -1,5 +1,5 @@
 {
-  "name": "ex5-estudantes",
+  "name": "todolist",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,10 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "ex5-estudantes": "file:",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "uuid": "^10.0.0"
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
