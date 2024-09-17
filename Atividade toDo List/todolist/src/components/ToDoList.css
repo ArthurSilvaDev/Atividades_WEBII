@@ -1,0 +1,46 @@
+.to-do-list{
+    background-color: rgb(36, 0, 83);
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+button{
+    margin-left: 5px;
+    margin-bottom: 2px;
+}
+.complete-button{
+    background-color: rgb(6, 228, 6);
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+}
+
+.delete-button{
+    background-color: red;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+}
+
+.recuperar-button{
+    background-color: yellow;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+}
+
+.textFeita{
+    text-decoration: line-through;
+}
+
+.add-button{
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    text-transform: uppercase;
+}

@@ -1,14 +1,12 @@
+/* eslint-disable no-unused-vars */
 import { useState } from 'react'
-import './App.css'
+import ToDoList from './components/ToDoList.jsx'
 
 function App() {
   
-  const [tarefasPendentes, settarefasPendentes] = useState([])
-  const [tarefasRelizadas, settarefasRealizadas] = useState([])
-
   return (
     <>
-      <h1>To Do List</h1>
+    <ToDoList/>
         
     </>
   )

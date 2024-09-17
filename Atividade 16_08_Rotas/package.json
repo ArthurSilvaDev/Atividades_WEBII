@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "atividade-16_08_rotas": "file:",
     "express": "^4.19.2",
     "uuid": "^10.0.0"
   }
