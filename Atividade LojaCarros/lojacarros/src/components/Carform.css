@@ -1,0 +1,22 @@
+.formAdicionar{
+    text-align: left;
+    display: flex;
+    flex-direction:column;
+    text-align:center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: solid 1px black;
+    border-radius: 5px;
+}
+input{
+    margin: 5px;
+}
+.button-adicionarCarro{
+    background-color: black;
+    color: white;
+    border: solid 1px white;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
