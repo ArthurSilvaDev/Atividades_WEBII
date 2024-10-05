@@ -22,11 +22,12 @@ const CarCard =({carro, venderCarro, removerCarro, carrosVendidos}) =>{
             <p>Modelo do veiculo: {carro.modelo}</p>
             <p>Ano do veiculo: {carro.ano}</p>
             <p>Cor do veiculo: {carro.cor}</p>
+            <p></p>
 
             
             <button onClick={() =>removerCarro(carro.id)}>Remover</button>
 
-                <button onClick={() =>setShowForm(!showForm)}>Vender</button>
+            <button onClick={() =>setShowForm(!showForm)}>Vender</button>
 
                 {showForm && (
                     <div>
