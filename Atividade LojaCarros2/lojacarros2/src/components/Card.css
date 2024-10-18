@@ -1,0 +1,18 @@
+.Card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: solid 1px black;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    
+}
+
+.imgCarro{
+    width: 200px;
+    float: left;
+}
